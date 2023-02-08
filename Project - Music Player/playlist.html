@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title -->
+    <title> Insanity Studio </title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo1.svg">
+
+    <!-- Material Icons CSS link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round">
+
+    <!-- Local CSS link -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <!-- Making navbar sticky to top -->
+    <div class="navbar-fixed">
+        <nav class="navbar">
+
+            <!-- Left part of navbar contains logo and menu -->
+            <div class="left d-flex">
+                <!-- Logo and logo name -->
+                <div class="logo d-flex">
+                    <div class="logo-img">
+                        <a href="index.html">
+                            <img src="img/logo1.svg" alt="studio_img">
+                        </a>
+                    </div>
+
+                    <span class="logo-name">
+                        <span class="focus-in-contract-bck"> Insanity </span>
+                        <br>
+                        <span class="focus-in-contract-bck"> Studio </span>
+                    </span>
+                </div>
+
+                <!-- Favourites -->
+                <span class="link">
+                    <a href="#player"> Favourites </a>
+                </span>
+            </div>
+
+            <!-- Right part of navbar contains search bar, notification, user pic -->
+            <div class="right d-flex">
+                <!-- Search bar -->
+                <div class="search">
+                    <span class="material-icons-round"> search </span>
+                    <input type="text" placeholder="Search">
+                    <span class="material-icons-round"> mic </span>
+                </div>
+
+                <!-- Notification Icon -->
+                <div class="notif">
+                    <i class="material-icons-round"> notifications </i>
+                    <i class="material-icons-round"> stop_circle </i>
+                </div>
+
+                <!-- Profile pic -->
+                <div class="profile-pic">
+                    <img src="img/profile.jpeg" alt="profile pic">
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Container contains Main Section and Queue Section -->
+    <div class="container main-container d-flex">
+
+        <!-- Main Section -->
+        <main class="main-section col d-flex">
+
+            <!-- Hero Section -->
+            <div class="hero scale-up-center d-flex">
+
+                <!-- Left part for image -->
+                <div class="left">
+                    <div class="image-container">
+                        <img src="img/weeknd1.jpg" alt="">
+                    </div>
+                </div>
+
+                <!-- Right Part for artist name and details -->
+                <div class="right d-flex">
+
+                    <!-- Artist name -->
+                    <div class="heading d-flex">
+                        <!-- Name/ details -->
+                        <div class="left">
+                            <p class="artist-name">
+                                The Weeknd
+                            </p>
+                            <p class="bold">
+                                Canadian Singer
+                            </p>
+                        </div>
+
+                        <!-- Followers -->
+                        <div class="right">
+                            <span class="followers bold">
+                                856
+                            </span>
+                            Followers
+                        </div>
+                    </div>
+
+                    <!-- Description About Artist -->
+                    <div class="description">
+                        The Weeknd is a talented and popular Ethiopian Hipster R&B artist who hails from the beautiful
+                        country of
+                        Canada--Ontario in particular. Born on February 16, 1990 under the name of Abel Tesfaye, he felt
+                        the pains of a less
+                        than ideal child's life while growing up. His father was not around and his mother worked many
+                        hours to care for his
+                        needs; therefore, his grandmother took the lead in his life.
+                    </div>
+
+                    <!-- Button Controls -->
+                    <div class="controls">
+                        <button class="btn">
+                            Play All
+                        </button>
+                        <button class="btn">
+                            Follow
+                        </button>
+                    </div>
+
+                    <!-- Total Tracks and Albums -->
+                    <div class="songs d-flex">
+                        <div class="tracks">
+                            <span> 247 </span>
+                            Tracks
+                        </div>
+
+                        <div class="albums">
+                            <span> 128 </span>
+                            Albums
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Hero Section -->
+
+            <!-- All songs -->
+            <div class="all-songs scale-up-center d-flex">
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            01
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/heartless.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Heartless
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right d-flex">
+                        <!-- Checkbox used for toggling favourite button -->
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite"></div>
+                        <span class="material-icons-round">
+                            add
+                        </span>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Current Playing -->
+                        <div class="current-playing">
+                            <span class="material-icons-round">
+                                bar_chart
+                            </span>
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/blinding-ligghts.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Blinding Lights
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite"></div>
+                        <span class="material-icons-round">
+                            add
+                        </span>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            03
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/starboy.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Starboy
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite"></div>
+                        <span class="material-icons-round">
+                            add
+                        </span>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            04
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/the-hills.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                The Hills
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite"></div>
+                        <span class="material-icons-round">
+                            add
+                        </span>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            05
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/i-feel-it-coming.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                I Feel It Coming
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite"></div>
+                        <span class="material-icons-round">
+                            add
+                        </span>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            06
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/secrets.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Secrets
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite"></div>
+                        <span class="material-icons-round">
+                            add
+                        </span>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+            </div>
+            <!-- End All Songs -->
+
+        </main>
+        <!-- End Main Section -->
+
+        
+        <!-- Sidebar (or Queue Section) for Desktop -->
+        <aside class="col">
+
+            <!-- Navbar with queue menu -->
+            <div class="navbar-fixed d-flex">
+
+                <!-- left -->
+                <div class="left"> Queue </div>
+
+                <!-- Right part with queue dropdown menu -->
+                <div class="right">
+
+                    <!-- Dropdown Container -->
+                    <div class="dropdown-container queue-menu" tabindex="1">
+                        Queue
+
+                        <!-- Dropdown icon -->
+                        <span class="material-icons-round">
+                            keyboard_arrow_down
+                        </span>
+
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                            <ul class="list">
+                                <li>
+                                    <a href="#player">
+                                        <span class="material-icons-round">
+                                            queue_music
+                                        </span>
+
+                                        <span> Playlists </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#player">
+                                        <span class="material-icons-round">
+                                            favorite
+                                        </span>
+
+                                        <span> Favourites Songs </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Navbar with Queue Menu -->
+
+            <!-- Sidebar main i.e. Song container -->
+            <div class="sidebar-main">
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            01
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/i-dont-care.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                I Don't Care
+                            </div>
+
+                            <div class="singer-name">
+                                Ed Sheeran
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            02
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/dusk-till-down.jpeg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Dusk Till Down
+                            </div>
+
+                            <div class="singer-name">
+                                Zayn Malik
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            03
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/vaatthi.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Vaathi Coming
+                            </div>
+
+                            <div class="singer-name">
+                                Anirudh Ravichander
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Current Playing -->
+                        <div class="current-playing">
+                            <span class="material-icons-round">
+                                bar_chart
+                            </span>
+                        </div>
+
+                        <!-- Counting -->
+                        <div class="count">
+                            04
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/in-your-eyes.jpeg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                In Your Eyes
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            05
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/shawnmendes.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Treat You Better
+                            </div>
+
+                            <div class="singer-name">
+                                Shawn Mendes
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            06
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/heartless.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Heartless
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            07
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/blinding-ligghts.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Blinding Lights
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            08
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/starboy.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Starboy
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            09
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/the-hills.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                The Hills
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            10
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/i-feel-it-coming.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                I Feel It Coming
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            11
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/secrets.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Secrets
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            12
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/EdSheeran.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Thinking Out Loud
+                            </div>
+
+                            <div class="singer-name">
+                                Ed Sheeran
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            13
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/love-me.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Love Me Like You Do
+                            </div>
+
+                            <div class="singer-name">
+                                Ellie Goulding
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song --> 
+
+            </div>
+            <!-- End Sidebar Main -->
+
+        </aside>
+        <!-- End Sidebar -->
+
+    </div>
+    <!-- End Container -->
+
+    <!-- Footer i.e. Player -->
+    <!-- Queue section is integrated in bottom for mobile devices -->
+    <footer id="player">
+
+        <!-- "Close icon" for mobile devices to close bottom player -->
+        <a class="material-icons-round close" href="">
+            close
+        </a>
+
+        <!-- Container -->
+        <div class="container d-flex">
+
+            <!-- Mobile Queue -->
+            <div class="queue">
+
+                <!-- Navbar with queue menu -->
+                <div class="navbar-fixed d-flex">
+
+                    <!-- left -->
+                    <div class="left">
+                        Queue
+                    </div>
+
+                    <!-- Right part contains queue dropdown menu -->
+                    <div class="right">
+
+                        <!-- Dropdown Container -->
+                        <div class="dropdown-container queue-menu" tabindex="1">
+                            Queue
+                        </div>
+
+                        <!-- Down Arrow Icon -->
+                        <span class="material-icons-round">
+                            keyboard_arrow_down
+                        </span>
+
+                        <!-- Dropdown -->
+                        <div class="dropdown">
+                            <ul class="list">
+                                <li>
+                                    <a href="#player">
+                                        <span class="material-icons-round">
+                                            queue_music
+                                        </span>
+                                        <span> Playlists </span>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#player">
+                                        <span class="material-icons-round">
+                                            favorite
+                                        </span>
+                                        <span> Favourite Songs </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Navbar with Queue Menu -->
+            
+            <!-- Sidebar main i.e. Song container -->
+            <div class="sidebar-main">
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            01
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/i-dont-care.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                I Don't Care
+                            </div>
+
+                            <div class="singer-name">
+                                Ed Sheeran
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            02
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/dusk-till-down.jpeg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Dusk Till Down
+                            </div>
+
+                            <div class="singer-name">
+                                Zayn Malik
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            03
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/vaatthi.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Vaathi Coming
+                            </div>
+
+                            <div class="singer-name">
+                                Anirudh Ravichander
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Current Playing -->
+                        <div class="current-playing">
+                            <span class="material-icons-round">
+                                bar_chart
+                            </span>
+                        </div>
+
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/in-your-eyes.jpeg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                In Your Eyes
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            05
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/shawnmendes.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Treat You Better
+                            </div>
+
+                            <div class="singer-name">
+                                Shawn Mendes
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            06
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/heartless.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Heartless
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            07
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/blinding-ligghts.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Blinding Lights
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            08
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/starboy.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Starboy
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            09
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/the-hills.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                The Hills
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            10
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/i-feel-it-coming.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                I Feel It Coming
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            11
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/secrets.webp" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Secrets
+                            </div>
+
+                            <div class="singer-name">
+                                The Weeknd
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            12
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/EdSheeran.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Thinking Out Loud
+                            </div>
+
+                            <div class="singer-name">
+                                Ed Sheeran
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song -->
+
+                <!-- Song -->
+                <div class="song d-flex">
+
+                    <!-- Left part contains count, image and details -->
+                    <div class="left d-flex">
+
+                        <!-- Counting -->
+                        <div class="count">
+                            13
+                        </div>
+                        
+                        <!-- Song Image -->
+                        <a href="#player">
+                            <div class="image-container play-pause">
+                                <img src="img/love-me.jpg" alt="">
+                            </div>
+                        </a>
+
+                        <!-- Details -->
+                        <div class="name d-flex">
+                            <div class="song-name">
+                                Love Me Like You Do
+                            </div>
+
+                            <div class="singer-name">
+                                Ellie Goulding
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right part for Toggling -->
+                    <div class="right">
+                        <input type="checkbox" class="toggle-button">
+
+                        <div class="favourite"></div>
+                    </div>
+                </div>
+                <!-- End Song --> 
+
+            </div>
+            <!-- End Sidebar Main -->
+            <!-- End Mobile Queue -->
+
+            <!-- Bottom Player -->
+            <div class="player d-flex">
+
+                <!-- Left part of player -->
+                <div class="song-info left d-flex">
+
+                    <!-- Thumbnail -->
+                    <div class="image-container">
+                        <img src="img/weeknd.jpg" alt="">
+                    </div>
+
+                    <!-- Song with marquee -->
+                    <div class="song-details">
+                        <marquee behavior="scroll" direction="left" scrollamount="3">
+                            Blinding Lights
+                        </marquee>
+
+                        <p>
+                            The Weeknd
+                        </p>
+                    </div>
+
+                    <!-- Favourite with other controls -->
+                    <div class="make-favourite d-flex">
+                        <input type="checkbox" class="toggle-button">
+                        <div class="favourite"></div>
+                        <span class="material-icons-round">
+                            block
+                        </span>
+                    </div>
+                </div>
+                <!-- End left part player -->
+
+                <!-- Middle Part -->
+                <div class="main-controls d-flex center">
+
+                    <!-- Change song controls -->
+                    <div class="top-controls d-flex">
+                        <span class="material-icons-round">
+                            shuffle
+                        </span>
+                        <span class="material-icons-round">
+                            skip_previous
+                        </span>
+                        <span class="material-icons-round">
+                            pause
+                        </span>
+                        <span class="material-icons-round">
+                            skip_next
+                        </span>
+                        <span class="material-icons-round">
+                            repeat
+                        </span>
+                    </div>
+
+                    <!-- Audio seek bar using range input element -->
+                    <div class="bottom-controls d-flex">
+                        <div class="duration">
+                            1:24
+                        </div>
+                        <div class="progress d-flex">
+                            <input type="range">
+                        </div>
+                        <div class="duration">
+                            4:23
+                        </div>
+                    </div>
+                </div>
+                <!-- End Middle Part -->
+
+                <!-- Right part of player -->
+                <div class="right-control right d-flex">
+
+                    <!-- Playlist, Volume and Other controls -->
+                    <span class="material-icons-round">
+                        playlist_play
+                    </span>
+                    <span class="material-icons-round">
+                        speaker
+                    </span>
+                    <span class="material-icons-round">volume_up</span>
+                    <div class="progress d-flex">
+                        <input type="range">
+                    </div>
+                    <span class="material-icons-round">
+                        open_in_full
+                    </span>
+                </div>
+                <!-- End Right Part of Player -->
+
+            </div>
+            <!-- End Bottom Player -->
+
+        </div>
+        <!-- End Container -->
+
+    </footer>
+    <!-- End Footer -->
+
+</body>
+</html>
